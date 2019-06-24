@@ -2,160 +2,8 @@
 <html>
 <head>
 	<title>Charlie Sowerby</title>
-	<style>
 
-/* -------------- CSS RESET ------------------- */
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-/* ------------ END CSS RESET ------------------- */
-
-
-		body{
-			font-family: "Helvetica";
-			padding: 40px 225px;
-
-		}
-
-		nav{
-			float: right;
-		}
-
-		header{
-		/*	background-color: pink; */
-			padding: 10px 0px;
-			border-bottom-style: dotted;
-   			border-bottom-width: 2px;
-   			border-bottom-color: #e6e6e6;
-   			margin-bottom: 30px;
-   			
-		}
-
-		.group:before,
-		.group:after {
-  			content: "";
-  			display: table;
-		}
-		.group:after {
-  			clear: both;
-		}
-		.group {
-  			clear: both;
-  			*zoom: 1;
-		}
-
-		h1{
-			font-size: 40px; 
-			padding-bottom: 10px;
-			display:block;
-		}
-
-		h2{
-			font-size: 17px;
-			text-align: left; 
-			margin-top: 5px;
-			margin-bottom: 5px;
-		}
-
-		nav{
-			width: 45%;
-			min-width: 300px;
-			font-size: 25px;
-		}
-
-		.link{
-			display:inline-block;
-			margin-left: 5%;
-			padding: 10px 0px;
-			text-align: center;
-			min-width: 20px;
-			float: right;
-		}
-
-		a{
-			text-decoration: none;
-			color: black;
-		}
-
-		.link:hover{
-			color: rgb(101, 141, 225);
-		}
-
-
-		.title{
-			float: left
-		}
-
-		img{
-			width: 300px;
-			display:inline;
-			float: left;
-			margin-right: 20px
-
-
-		}
-
-		.mainBody{
-			padding: 0px 0px;
-		}
-
-		#title:hover{
-			color: rgb(101, 141, 225);
-		}
-
-
-
-
-	</style>
+	<link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
 </head>
 <body>
 
@@ -167,29 +15,22 @@ table {
 			<h2> charlie.sowerby@gmail.com </h2>
 		</div>
 		<nav>
-			<a href="etc.html" class="link">
+			<a href="etc.html" class="headerLink">
 				Etc. 
 			</a> 
-			<a href="interests.html" class="link">
+			<a href="interests.html" class="headerLink">
 				Interests
 			</a>
-			<a href="cv.pdf" class="link">
+			<a href="assets/files/cv.pdf" class="headerLink">
 				CV
 			</a>
+ 
 		</nav>
 	</header>
 	<div class="mainBody">
-		<img src="standing.jpg">
+		<img class="mainImg" src="assets/images/standing.jpg">
 		<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis lectus vitae dolor volutpat, ac dapibus mauris tempor. Mauris sodales lacinia ligula non blandit. Vivamus in turpis lobortis, lobortis massa sit amet, tempor felis. Etiam id lorem hendrerit, ullamcorper arcu tempor, facilisis augue. Proin eleifend consectetur viverra. Cras ut quam accumsan, aliquet felis sit amet, porttitor elit. Mauris non hendrerit dui, quis elementum leo. Nunc vitae ex vehicula, accumsan nunc et, molestie eros. Aliquam dictum quam nec libero hendrerit sollicitudin. In hac habitasse platea dictumst. Morbi viverra dui orci, eu gravida arcu iaculis porta. Donec risus diam, volutpat a purus in, luctus vehicula metus. Vivamus ac feugiat mauris.
-
-			<br><br>
-
-			Phasellus luctus consequat condimentum. Curabitur facilisis purus velit, sed molestie sem congue in. Sed varius sit amet dolor sed bibendum. Curabitur tincidunt nulla sit amet velit porttitor, lacinia suscipit risus ultricies. Donec ornare, neque ut rhoncus iaculis, risus purus placerat sapien, ut maximus ante lacus sed diam. Phasellus eget dui a lacus varius imperdiet at ac est. Nam vestibulum, justo a pellentesque mattis, diam neque sollicitudin nulla, mattis elementum quam ligula eget ligula. Nulla ultricies aliquet velit eget fringilla. Sed varius lorem erat, ut maximus mi pulvinar sit amet.
-
-			<br><br>
-
-			Aliquam erat volutpat. Duis a iaculis magna. Morbi mauris ligula, lacinia id nulla ut, luctus efficitur neque. Proin pharetra ut erat ac fringilla. Duis tincidunt neque sed sapien facilisis, sed rhoncus dolor iaculis. Vivamus venenatis dolor non congue dictum. Proin tempus aliquet ex, eu ullamcorper turpis mattis lacinia.
+			Hello, my name is Charlie Sowerby.
 		</p>
 	</div>
 </body>
