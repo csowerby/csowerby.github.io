@@ -56,8 +56,7 @@ table {
 
 body{
 	font-family: "Helvetica";
-	padding: 40px 225px;
-	background-color: rgb(250, 250, 250);
+	padding: 40px 200px;
 
 }
 
@@ -133,7 +132,7 @@ a:hover{
 
 .mainImg{
 	width: 300px;
-	display:inline;
+	display:inline-block;
 	float: left;
 	margin-right: 20px;
 }
@@ -142,9 +141,46 @@ a:hover{
 	padding: 0px 0px;
 }
 
-#title:hover{
-	color: rgb(101, 141, 225);
+.bio{
+	font-size:18px;
 }
+
+
+#returnMain{
+	padding-right:20px;
+}
+
+
+/* ----------- SECTION FOR INTERESTS PAGE -------- */
+
+section{
+	border-bottom:#e6e6e6 2px dotted;
+	display:inline-block;
+	width: 100%;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+section img{
+	width: 350px;
+	display:inline-block;
+	float:right;
+	margin-left: 30px;
+}
+
+section h3{
+	font-size: 20px;
+	text-align:left;
+}
+
+.sectionWrapper{
+	margin-top: 8px;
+	text-align:left;
+	padding: 5px;
+	width:90%;
+	display:inline-block;
+}
+
 
 /* ---------------- */
 
