@@ -153,7 +153,7 @@ a:hover{
 
 /* ----------- SECTION FOR INTERESTS PAGE -------- */
 
-section{
+.interests{
 	border-bottom:#e6e6e6 2px dotted;
 	display:inline-block;
 	width: 100%;
@@ -161,14 +161,14 @@ section{
 	text-align:center;
 }
 
-section img{
+.interests img{
 	width: 350px;
 	display:inline-block;
 	float:right;
 	margin-left: 30px;
 }
 
-section h3{
+.interests h3{
 	font-size: 20px;
 	text-align:left;
 }
@@ -184,13 +184,32 @@ section h3{
 
 /* ---------------- */
 
+/* ----------- SECTION FOR ECT PAGE -------- */
+
+.ect{
+	border-bottom:#e6e6e6 2px dotted;
+	display:inline-block;
+	width: 100%;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+
+
+
+/* ---------------- */
+
 .etcImg{
-	width: 80%;
+	width: 500px;
 	display: block;
 	margin-left: auto;
 	margin-right:auto;
 	border: 1px solid black;
-	margin: 20px auto;
+	margin: 10px auto;
 }
+
+
+
 
 
