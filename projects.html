@@ -12,7 +12,7 @@
 	<header class="group">
 	<h1 id="title">  Projects  </h1>
 		<div class="title">
-			<h2> Some of my projects and work from undergrad. This section is under construction. Much more to come. </h2>
+			<h2> Examples of my work and research from undergrad. More to come. </h2>
 		</div>
 		<nav>
 			<a href="etc.html" class="headerLink">
@@ -30,22 +30,42 @@
 		</nav>
 	</header>
 	<div class="mainBody">
-		<a href="assets/files/Physics199_Report.pdf">
-			
-			
-		</a>
-		<section class="interests">
-			<a target="_blank" href="assets/files/Physics199_Report.pdf"> <h3> Relay Controlled Adjustable Resistor </h3> </a>
+
+		<a target="_blank" href="assets/files/eigsolver_report.pdf">
+		<section class="project"> 
+						 <h3> Eigenmode Solver - Spring 2021 </h3> 
+			<div class = "sectionWrapper">
+				<img src="assets/images/eigsolver_pic.png">
+				<p> This paper presents my work in modifying a linear eigenmode solver to incorporate electro-magnetic effects in magnetically confined plasma. This was written as a part of UCLA Physics Departmental Honors Program. 
+				<br> <br>
+				Previously, this eigenmode solver used an electrostatic approximation in which the magnetic field was assumed to be fixed and uniform.  This program uses a simplified version of the Braginskii two-fluid equations solved using finite differencing methods todetermine the frequency of wave instabilites as eigenvalues of the system.  The eigenmode solver program uses numerical methods from the BOUT framework developed in the 1990’s for plasma modeling.  The new eigenmode solver gives us a more accurate picture of instabilities in plasma, particularly with high &beta;. </p>
+		 </section></a>
+
+
+		<a target="_blank" href="assets/files/180a_labs.pdf">
+		<section class="project"> 
+						 <h3> Nuclear Physics Lab Reports - Winter 2021 </h3> 
+			<div class = "sectionWrapper">
+				<img src="assets/images/beta_spectrum.png">
+				<p> For my nuclear physics lab in Winter 2021, we studied, learned how to operate equipment, and learned how to analyze data from several common nuclear physics experiments. Since the class was given remotely, the focus this quarter was on data analysis done in python. Click this section to see the four lab reports concatenated together. These reports show some of my highest quality work from undergrad.
+					<br><br>
+				The four experiments we performed had to do with 1. Cosmic ray scattering and general principles, 2. Measuring half lives of Silver isotopes, 3. Beta spectra of Cesium-137, 4. The Compton effect. Throughout these experiments we learned how to use, calibrate, and interpret data from scintillators, photomultiplier tubes, Gieger counters, spectrometers, proportional counters, and more. </p>
+		 </section></a>
+
+
+		<a target="_blank" href="assets/files/Physics199_Report.pdf">
+		<section class="project">
+			 <h3> Relay Controlled Adjustable Resistor - Spring 2019 </h3> 
 			<div class = "sectionWrapper">
 				<img src="assets/images/relayresistor.JPG">
-				<p> For my research in Spring 2019, I worked on developing a solution to the problem of eliminating noise in measuring the electron and ion saturation current in Langmuir probes. 
+				<p> As part of my research for the Basic Plasma Science Facility at UCLA, I worked on developing a solution to the problem of eliminating noise in measuring the electron and ion saturation current in Langmuir probes. 
 					<br><br>
 				When sweeping through voltages, it is difficult to measure both the ion and electron saturation currents with high accuracy. Since the ion and electron saturation currents are very different in magnitude, measuring the voltage drop across the same resistor is less precise due to a significant amount of noise from the ion current. If it would be possible to use different size resistors to measure the voltage drop, the data would be significantly easier to analyze. 
 					<br> <br>
-				My solution to this problem was a relay-controlled circuit to switch between several fixed valued resistors connected in parallel. Only one of the resistors was to be connected at once, so the saturation current would pass through the circuit over a resistor of chosen value by the user or the DAQ system. The power for the circuit as well as the signals to control the relays were sent from a Raspberry Pi via a DB9 connection to the outside of the circuit box.</p>
+				My solution to this problem is a relay-controlled circuit to switch between several fixed valued resistors connected in parallel. Only one of the resistors was to be connected at once, so the saturation current would pass through the circuit over a resistor of chosen value by the user or the DAQ system. The power for the circuit as well as the signals to control the relays were sent from a Raspberry Pi via a DB9 connection to the outside of the circuit box.</p>
 				
 			</div>
-		</section>
+		</section></a>
 
 
 	</div>
